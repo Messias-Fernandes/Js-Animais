@@ -7,16 +7,18 @@
   <title>Animais Fantásticos</title>
 </head>
 <body>
-  <nav>
-    <li><a href="#animais">Animais</a></li>
-    <li><a href="#faq"></a>Faq</li>
-    <li><a href="#contato">Contato</a></li>
-    <li><a href="https://www.instagram.com/ze.fernd/"></a>Dev →</li>
+  <nav class="menu">
+    <ul>
+      <li><a href="#animais">Animais</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contato">Contato</a></li>
+      <li><a href="https://www.instagram.com/ze.fernd/">Dev →</a></li>
+    </ul>
   </nav>
 
   <section class="grid-section animais" id="animais">
     <h1 class="titulo">Animais Fantásticos</h1>
-    <ul>
+    <ul class="animais-lista">
       <li>
         <img src="./img/imagem1.jpg" alt="">
       </li>
@@ -83,9 +85,9 @@
   </section>
 
   <section class="grid-section faq" id="faq">
-    <h1>FAQ</h1>
-    <dl>
-      <dt>Qual idade dos animais</dt>
+    <h1 class="titulo">FAQ</h1>
+    <dl class="faq-lista">
+      <dt>Qual idade dos animais?</dt>
       <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quia earum molestias fuga aut laudantium ipsa temporibus, beatae et similique?</dd>
       <dt>Eles são fantásticos?</dt>
       <dd>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem adipisci esse ullam repellendus porro, corporis unde veniam quasi assumenda maxime!</dd>
@@ -97,6 +99,7 @@
   </section>
 
   <section class="grid-section " id="contato">
+    <h1 class="titulo">Contato</h1>
     <div class="mapa">
       <img src="./img/mapa.png" alt="">
     </div>
@@ -107,8 +110,8 @@
     </ul>
   </section>
 
-  <footer>
-    <p class="copy">Todos os direitos reservados.</p>
+  <footer class="copy">
+    <p >Todos os direitos reservados.</p>
   </footer>
   <script src="./script.js"></script>
 </body>
