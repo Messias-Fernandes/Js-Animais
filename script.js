@@ -1,7 +1,6 @@
 // eventos 
+const img = document.querySelectorAll('img')
 
-const img = document.querySelector('img')
-
-img.addEventListener('click', () => {
-  console.log('clicou')
-})
+function imgSrc (event){
+  const src = event.currentTarget.get
+}
