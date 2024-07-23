@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
   <title>Animais Fantásticos</title>
+  <script>document.documentElement.className += ' js'</script>
 </head>
 <body>
-  <nav class="menu azul">
+  <nav class="menu js-menu">
     <ul>
       <li><a href="#animais">Animais</a></li>
       <li><a href="#faq">FAQ</a></li>
@@ -16,9 +17,9 @@
     </ul>
   </nav>
 
-  <section class="grid-section animais" id="animais">
+  <section class="grid-section animais js-scroll" id="animais">
     <h1 class="titulo">Animais Fantásticos</h1>
-    <ul class="animais-lista">
+    <ul class="animais-lista js-tabmenu" >
       <li>
         <img src="./img/imagem1.jpg" alt="">
       </li>
@@ -39,7 +40,7 @@
       </li>
     </ul>
 
-    <div class="animais-descricao">
+    <div class="animais-descricao  js-tabcontent">
       <section>
         <h2>Raposa</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quos quas harum, itaque sed ab eum. Soluta saepe dolor libero. Quaerat omnis optio commodi minus.</p>
@@ -84,9 +85,9 @@
     </div>
   </section>
 
-  <section class="grid-section faq" id="faq">
+  <section class="grid-section faq js-scroll" id="faq">
     <h1 class="titulo">FAQ</h1>
-    <dl class="faq-lista">
+    <dl class="faq-lista js-accordion">
       <dt>Qual idade dos animais?</dt>
       <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quia earum molestias fuga aut laudantium ipsa temporibus, beatae et similique?</dd>
       <dt>Eles são fantásticos?</dt>
@@ -98,7 +99,7 @@
     </dl>
   </section>
 
-  <section class="grid-section " id="contato">
+  <section class="grid-section js-scroll " id="contato">
     <h1 class="titulo">Contato</h1>
     <div class="mapa">
       <img src="./img/mapa.png" alt="">
